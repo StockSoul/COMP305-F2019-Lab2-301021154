@@ -4,7 +4,8 @@ using UnityEngine;
 
 /* Andrew Trinidad
  * 3010201154
- * Program Modifications: Changed file to ScriptableObject
+ * Program Modifications: 
+ * -Changed file to ScriptableObject
 */
 
 [CreateAssetMenu(fileName = "ScoreBoard", menuName = "Game/ScoreBoard")]

@@ -4,7 +4,9 @@ using UnityEngine;
 
 /* Andrew Trinidad
  * 3010201154
- * Program Modifications: Created File to manage scenes
+ * Program Modifications: 
+ * -Created File to manage scenes, 
+ * -Added scene variable
 */
 
 [CreateAssetMenu(fileName = "SceneSettings", menuName = "Scene/Settings")]
@@ -12,6 +14,7 @@ using UnityEngine;
 public class SceneSettings : ScriptableObject
 {
     [Header("Scene Configuration")]
+    public Scene scene;
     public SoundClip activeSoundClip;
 
     [Header("ScoreBoard Labels")]
