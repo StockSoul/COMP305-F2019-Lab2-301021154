@@ -18,6 +18,9 @@ using System.Linq;
  * -Corrected scoreboard settings (not really?) (player dies in one hit)
  * -Corrected Lives and Score problem (changed if statement)
  * -Removed Update
+ * 
+ * New:
+ * -Added Explosion
 */
 
 public class GameController : MonoBehaviour
@@ -27,6 +30,7 @@ public class GameController : MonoBehaviour
     public GameObject island;
     public int numberOfClouds;
     public List<GameObject> clouds;
+    public GameObject explosion;
 
     [Header("Audio Sources")]
     public SoundClip activeSoundClip;

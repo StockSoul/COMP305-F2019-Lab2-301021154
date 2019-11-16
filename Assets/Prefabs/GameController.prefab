@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6258031004218500818}
   - component: {fileID: 6258031004218500821}
   - component: {fileID: 6258031004218500820}
+  - component: {fileID: 1512614225553367067}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -338,6 +339,8 @@ MonoBehaviour:
   island: {fileID: 4066947924111177519, guid: b5c574aad07e45b4ca27759fb28d487b, type: 3}
   numberOfClouds: 3
   clouds: []
+  explosion: {fileID: 9120457109375481496, guid: ef4ef27223c090b4585d2bfde6428778,
+    type: 3}
   activeSoundClip: 0
   audioSources:
   - {fileID: 6258031004218500819}
@@ -358,3 +361,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e05850282eea60f459859c9f58be4a3e, type: 2}
   - {fileID: 11400000, guid: f339694af96beaa4799ea413ee27099e, type: 2}
   - {fileID: 11400000, guid: 86c99429b7fb706449eb91e8ef63b800, type: 2}
+--- !u!114 &1512614225553367067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6258031004218500822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8d12bc16250bb4a8915640577e5fa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionNumber: 10
+  explosionContainer: {fileID: 0}
